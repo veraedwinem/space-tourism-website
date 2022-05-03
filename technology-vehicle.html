@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="body tech">
+
+  <div class="container">
+    <header class="header">
+
+      <figure class="logo">
+        <img src="assets/shared/logo.svg" alt="">
+      </figure>
+
+      <div class="division">
+        <hr>
+      </div>
+
+      <nav class="hamb" onclick="toggleMenu()">
+        <a href="#">
+        <img src="assets/shared/icon-hamburger.svg" alt="" class="nav-hamb" id="nav-hamb">
+        <img src="assets/shared/icon-close.svg" alt="" class="nav-close" id="nav-close">
+        </a>
+        </nav>
+
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link" id="nav1"> <span>00</span> Home </a>
+        <a href="destination-moon.html" class="nav-link" id="nav2"> <span>01</span> Destination</a>
+        <a href="crew-commander.html" class="nav-link" id="nav3"> <span>02</span> Crew</a>
+        <a href="" class="nav-link" id="nav4"> <span>03</span> Technology</a>
+      </nav>
+
+    </header>
+
+    <div class="subtitle">
+      <h2 class="title-dest"> <span>03 </span> Space launch 101 </h2>
+    </div>
+
+    <section class="section-1-tech">
+
+      <div class="nav-tech">
+        <div class="number-container"><a href="technology-vehicle.html" class="nav-number">1</a></div>
+        <div class="number-container"><a href="technology-spaceport.html" class="nav-number">2</a></div>
+        <div class="number-container"><a href="technology-capsule.html" class="nav-number">3</a></div>
+      </div>
+
+      <div class="text-tech">
+        <h3 class="little-title">The terminology...</h3>
+        <h1 class="grand-title">Launch vehicle</h1>
+        <p class="tech-paragraph">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+          payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+          WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+          it's quite an awe-inspiring sight on the launch pad!</p>
+      </div>
+
+      <div class="img-tech">
+        <figure class="tech-img-container"><img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="" class="tech-img"></figure>
+      </div>
+
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

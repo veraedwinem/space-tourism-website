@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<style type="text/css">
+    .newclass {
+          width: 90%;
+          padding: 30px;
+          background-color: red;
+          color: yellow;
+          font-size: 30px;
+}
+</style>
+<body>
+    <button onclick="myFun()">Try it</button>
+    <div id="test">
+        Adding Class Test
+    </div>
+    <script type="text/javascript">
+        function myFun() {
+          var ob = document.getElementById("test");
+          ob.classList.add("newclass");
+}
+    </script>
+</body>
+</html>
